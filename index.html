@@ -26,20 +26,31 @@
         <aside>
             <h2><span>Agendar agora!</span></h2>
             <h2>Seg a Sex 09hrs às 18hrs </h2>
-            <p>Odontologia com respeito e amor 💕
+            <p>Odontologia com respeito e amor 👨‍⚕️
                 <br>
-                😷 Dra.Mariana S.D. Barletta @maridbarletta_ 
+                🦷 Dra.Mariana S.D. Barletta @maridbarletta_ 
                 <br>
-                😷 Dra Gabriela R. Monteiro
+                🦷 Dra Gabriela R. Monteiro
                 <br>
-                😷 Dra Juliana R. Lozano @dra.julozano </p>
+                🦷 Dra Juliana R. Lozano @dra.julozano </p>
                 <form>
                     <input type="text" placeholder="Nome">
                     <input type="tel" placeholder="Telefone">
-                    <input type="submit" value="Enviar >">
-                </form>
+                    <input type="text" placeholder="Convenio">
+                    <br>
+                    <button type="submit">Agendar ></button>
+                  </form>
                 <img src="./components/img/recepcao.jpg" width="350">
         </aside>
     </main>
+    
+    <script>
+        const btn = document.getElementById("btn");
+        btn.addEventListener("click", function() {
+            alert("Obrigado por querer agendar uma consulta conosco!");
+        });
+    </script>
+    
+
 </body>
 </html>
